@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: #1a1a1a;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #1a1a1a;
+}
+
+.bg-dark {
+    min-height: 50px;
+}
+
+.logo-empresa {
+    min-width: 100px;
+    max-width: 120px;
+    margin-left: 60px;
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+/* Formato Main Index */
+
+.slide {
+    margin-top: 10px;
+
+}
+
+.slide img {
+    height: 40vh;
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: black;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+.Novedades-img {
+    display: flex;
+    justify-content: center;
+}
+
+.Novedades-img img {
+    width: 40%;
+    height: 350px;
+}
+
+/* Formato Footer */
+
+p {
+    text-align: center;
+    padding: 35px;
+}
+
+/* Formatos Nav Productos */
+.productos {
+    display: flex;
+    justify-content: center;
+}
+
+/* Formatos main-Sobre Nosotros */
+
+.titulo {
+    color: rgb(221, 7, 7);
+    font-size: 4em;
+    text-align: left;
+
+}
+
+.texto {
+    color: rgb(19, 14, 10);
+    font-size: 2em;
+}
+
+.imgh {
+    display: flex;
+    justify-content: center;
+}
+
+/* Formatos main-Dondecomprar */
+
+.texto2 {
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+}

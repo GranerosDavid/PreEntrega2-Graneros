@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/images/favicon/favicon-16x16.png">
+    <title>Tecno-Sale Soporte</title>
+</head>
+
+
+<body>
+    <header>
+
+        <img src="../assets/images/Soporte-1.jpg" alt>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Pagina de Inicio</a></li>
+            <li><a href="./Historia.html">Sobre Nosotros</a></li>
+            <li><a href="./Productos.html">Productos</a></li>
+            <li><a href="./Dondecomprar.html">Donde Comprar</a></li>
+            <li><a href="./contacto.html">Soporte</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="" method="post">
+
+            <fieldset>
+                <legend> Central de Soporte</legend>
+                <div>
+
+                    <LAbel for="Nombre">INGRESE SU NOMBRE</LAbel>
+                    <input type="text" id="Nombre" placeholder="Ingrese Su Nombre">
+                </div>
+
+                <div>
+
+                    <LAbel for="Email">INGRESE SU CORREO</LAbel>
+                    <input type="text" id="Email" placeholder="Ingrese Su Email">
+                </div>
+
+                <div>
+
+                    <LAbel for="Nac">INGRESE SU FECHA DE NACIMIENTO</LAbel>
+                    <input type="date" id="Nac">
+                </div>
+                <div>
+                    <h2> Seleccione el tipo de producto</h2>
+                </div>
+
+                <div>
+
+                    <form>
+                        <select name="Productos">
+                            <option value="L">Smartphones</option>
+                            <option value="M">Aire Acondicionado</option>
+                            <option value="S">TV & Audio</option>
+                        </select>
+                    </form>
+                </div>
+                <div>
+                    <h2>¿Tiene Factura de compra?</h2>
+                    <div>
+                        <input type="radio" name="tienefactura" value="SI" checked> SI
+                    </div>
+                    <div>
+                        <input type="radio" name="tienefactura" value="NO"> NO
+                    </div>
+                </div>
+                <div>
+                    <h2>El Producto fue adquirido en una tienda oficial?</h2>
+                    <div>
+                        <label for="espropietario"><input type="checkbox" name="dondecompro" id="espropietario"
+                                value="espropietario" checked>SI</label>
+                    </div>
+                    <div>
+                        <label for="noespropietario"><input type="checkbox" name="dondecompro" id="noespropietario"
+                                value="noespropietario">NO</label>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>Describa la falla del producto</h2>
+                    <br>
+                    <DIV>
+                        <textarea name="" id="" cols="80" rows="15"></textarea>
+                    </DIV>
+                </div>
+                <input id="Enviar" type="submit" value="Enviar">
+                <input id="Reset" type="reset" value="Limpiar">
+            </fieldset>
+            <div class="whatsapp">
+                <a
+                    href="https://api.whatsapp.com/send/?phone=%2B5491137031677&text=Hola&type=phone_number&app_absent=0">
+                    <img src="../assets/images/img-w.jpg" alt="">
+                </a>
+            </div>
+
+
+        </form>
+    </main>
+
+
+</body>
+
+</html>
