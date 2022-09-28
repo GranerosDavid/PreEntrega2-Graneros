@@ -62,7 +62,7 @@ h2 {
 
 }
 
-.Novedades-img {
+/* .Novedades-img {
     display: flex;
     justify-content: center;
 }
@@ -70,7 +70,7 @@ h2 {
 .Novedades-img img {
     width: 40%;
     height: 350px;
-}
+} */
 
 /* Formato Footer */
 
@@ -111,3 +111,4 @@ p {
     font-size: 2rem;
     color: blue;
 }
+
